@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage('Checkout'){
       steps{
-        git branch:'master' url:'https://github.com/Harini-hyd/fgradle.git'
+        git branch:'master' url:'https://github.com/Harini-hyd/maven6.git'
       }
     }
     stage('Build'){
